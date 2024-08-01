@@ -98,8 +98,6 @@ function carritoHTML() {
 }
 
 function limpiarHTML() {
-    // Forma lenta
-    // contenedorCarrito.innerHTML = '';
     while (contenedorCarrito.firstChild) {
         contenedorCarrito.removeChild(contenedorCarrito.firstChild);
     }
